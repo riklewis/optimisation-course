@@ -1,0 +1,22 @@
+Description
+===========
+
+This is the sample website project that is used in the course "Optimising your website: A developer workflow with Git and Gulp", which is available on Skillshare at the following link...
+
+[Optimising your website: A developer workflow with Git and Gulp](https://www.skillshare.com/classes/Optimising-your-website-A-development-workflow-with-Git-and-Gulp/1578429632/)
+
+You can also check out [my other courses](https://www.skillshare.com/user/riklewis) on .Skillshare.
+
+Videos
+======
+
+There is a branch for each start point during the course, which corresponds to the video where the changes are made.  The branch shows the code at the beginning of the video, so that you can check this out and follow along, if you want to.  You can of course follow along using your own project, if you prefer.
+
+1. Course Introduction
+2. Sample Project
+3. Atom, Git and Github
+4. Installing NodeJS
+5. Creating a Package File
+6. Installing GulpJS
+7. Git Initial Commit
+8. Github Remote Repository
