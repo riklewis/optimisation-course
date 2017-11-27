@@ -1,0 +1,27 @@
+{
+  "name": "optimisation-course",
+  "version": "1.0.0",
+  "description": "Sample project for Optimising your website course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riklewis/optimisation-course.git"
+  },
+  "keywords": [
+    "optimisation",
+    "git",
+    "gulp"
+  ],
+  "author": "Rik Lewis (rik@rik.onl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riklewis/optimisation-course/issues"
+  },
+  "homepage": "https://github.com/riklewis/optimisation-course#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
