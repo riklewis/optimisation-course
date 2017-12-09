@@ -5,7 +5,7 @@ This is the sample website project that is used in the course "Optimising your w
 
 [Optimising your website: A developer workflow with Git and Gulp](https://www.skillshare.com/classes/Optimising-your-website-A-development-workflow-with-Git-and-Gulp/1578429632/)
 
-You can also check out [my other courses](https://www.skillshare.com/user/riklewis) on .Skillshare.
+You can also check out [my other courses](https://www.skillshare.com/user/riklewis) on Skillshare.
 
 Videos
 ======
@@ -20,3 +20,4 @@ There is a branch for each start point during the course, which corresponds to t
 6. Installing GulpJS
 7. Git Initial Commit
 8. Github Remote Repository
+9. Creating a Gulp File - branch [09start](https://github.com/riklewis/optimisation-course/tree/09start)
