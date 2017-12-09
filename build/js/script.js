@@ -1,9 +1,2 @@
-$((function() {
-  if(self!==top) {
-    top.location = self.location;
-  }
-}));
-
-function debug(str) {
-  console.log("Optimisation: "+str);
-}
+function debug(o){console.log("Optimisation: "+o)}$((function(){self!==top&&(top.location=self.location)}));
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRlYnVnLmpzIiwib3B0aW1pc2F0aW9uLmpzIl0sIm5hbWVzIjpbImRlYnVnIiwic3RyIiwiY29uc29sZSIsImxvZyIsIiQiLCJzZWxmIiwidG9wIiwibG9jYXRpb24iXSwibWFwcGluZ3MiOiJBQUFBLFNBQUFBLE1BQUFDLEdBQ0FDLFFBQUFDLElBQUEsaUJBQUFGLEdDREFHLEVBQUEsV0FDQUMsT0FBQUMsTUFDQUEsSUFBQUMsU0FBQUYsS0FBQUUiLCJmaWxlIjoic2NyaXB0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gZGVidWcoc3RyKSB7XHJcbiAgY29uc29sZS5sb2coXCJPcHRpbWlzYXRpb246IFwiK3N0cik7XHJcbn1cclxuIiwiJChmdW5jdGlvbigpIHtcclxuICBpZihzZWxmIT09dG9wKSB7XHJcbiAgICB0b3AubG9jYXRpb24gPSBzZWxmLmxvY2F0aW9uO1xyXG4gIH1cclxufSk7XHJcbiJdfQ==
