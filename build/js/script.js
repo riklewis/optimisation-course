@@ -3,3 +3,7 @@ $(function() {
     top.location = self.location;
   }
 });
+
+function debug(str) {
+  console.log("Optimisation: "+str);
+}
