@@ -22,3 +22,4 @@ There is a branch for each start point during the course, which corresponds to t
 8. Github Remote Repository
 9. Creating a Gulp File - branch [09start](https://github.com/riklewis/optimisation-course/tree/09start)
 10. Concatenating javascript files - branch [10start](https://github.com/riklewis/optimisation-course/tree/10start)
+11. Minifying javascript files - branch [11start](https://github.com/riklewis/optimisation-course/tree/11start)
