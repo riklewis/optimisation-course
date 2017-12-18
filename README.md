@@ -27,3 +27,4 @@ There is a branch for each start point during the course, which corresponds to t
 13. Adding sourcemap files - branch [13start](https://github.com/riklewis/optimisation-course/tree/13start)
 14. Switching from pipe to pump - branch [14start](https://github.com/riklewis/optimisation-course/tree/14start)
 15. Concatenating stylesheets - branch [15start](https://github.com/riklewis/optimisation-course/tree/15start)
+16. Minifying stylesheets - branch [16start](https://github.com/riklewis/optimisation-course/tree/16start)

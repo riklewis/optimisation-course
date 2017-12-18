@@ -4,6 +4,7 @@ var uglify = require("gulp-uglify");
 var optimize = require("gulp-optimize-js");
 var maps = require("gulp-sourcemaps");
 var pump = require("pump");
+var cleancss = require("gulp-cleancss");
 
 gulp.task("default",["root","js","css"]);
 
@@ -29,6 +30,7 @@ gulp.task("css",function(cb) {
     gulp.src(["css/*.css"]),
     maps.init(),
     concat("style.css"),
+    cleancss(),
     maps.write(),
     gulp.dest("build/css")
   ]);
