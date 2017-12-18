@@ -5,7 +5,7 @@ var optimize = require("gulp-optimize-js");
 var maps = require("gulp-sourcemaps");
 var pump = require("pump");
 
-gulp.task("default",["root","js"]);
+gulp.task("default",["root","js","css"]);
 
 gulp.task("root",function(cb) {
   gulp.src("index.htm")
@@ -21,5 +21,15 @@ gulp.task("js",function(cb) {
     optimize(),
     maps.write(),
     gulp.dest("build/js")
+  ]);
+});
+
+gulp.task("css",function(cb) {
+  pump([
+    gulp.src(["css/*.css"]),
+    maps.init(),
+    concat("style.css"),
+    maps.write(),
+    gulp.dest("build/css")
   ]);
 });
