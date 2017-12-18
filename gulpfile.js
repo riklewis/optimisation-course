@@ -20,7 +20,7 @@ gulp.task("js",function(cb) {
     concat("script.js"),
     uglify(),
     optimize(),
-    maps.write(),
+    maps.write("../maps"),
     gulp.dest("build/js")
   ]);
 });
@@ -31,7 +31,7 @@ gulp.task("css",function(cb) {
     maps.init(),
     concat("style.css"),
     cleancss(),
-    maps.write(),
+    maps.write("../maps"),
     gulp.dest("build/css")
   ]);
 });
