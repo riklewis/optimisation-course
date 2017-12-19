@@ -5,8 +5,10 @@ var optimize = require("gulp-optimize-js");
 var maps = require("gulp-sourcemaps");
 var pump = require("pump");
 var cleancss = require("gulp-clean-css");
+var imagemin = require("gulp-imagemin");
+var newer = require("gulp-newer");
 
-gulp.task("default",["root","js","css"]);
+gulp.task("default",["root","js","css","img"]);
 
 gulp.task("root",function(cb) {
   gulp.src("index.htm")
@@ -33,5 +35,14 @@ gulp.task("css",function(cb) {
     cleancss({level:{1:{specialComments:0},2:{removeDuplicateRules:true}}}),
     maps.write("../maps"),
     gulp.dest("build/css")
+  ]);
+});
+
+gulp.task("img",function(cb) {
+  pump([
+    gulp.src(["img/*.png","img/*.jpg","img/*.gif","img/*.svg"]),
+    newer("build/img"),
+    imagemin(),
+    gulp.dest("build/img")
   ]);
 });

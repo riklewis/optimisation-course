@@ -30,3 +30,4 @@ There is a branch for each start point during the course, which corresponds to t
 16. Minifying stylesheets - branch [16start](https://github.com/riklewis/optimisation-course/tree/16start)
 17. Fixing sourcemaps - branch [17start](https://github.com/riklewis/optimisation-course/tree/17start)
 18. Minifying stylesheets further - branch [18start](https://github.com/riklewis/optimisation-course/tree/18start)
+19. Optimising images - branch [19start](https://github.com/riklewis/optimisation-course/tree/19start)
