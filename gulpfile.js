@@ -7,12 +7,16 @@ var pump = require("pump");
 var cleancss = require("gulp-clean-css");
 var imagemin = require("gulp-imagemin");
 var newer = require("gulp-newer");
+var htmlmin = require("gulp-htmlmin");
 
 gulp.task("default",["root","js","css","img"]);
 
 gulp.task("root",function(cb) {
-  gulp.src("index.htm")
-    .pipe(gulp.dest("build"));
+  pump([
+    gulp.src("index.htm"),
+    htmlmin({collapseWhitespace:true,removeComments:true}),
+    gulp.dest("build")
+  ]);
 });
 
 gulp.task("js",function(cb) {
