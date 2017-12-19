@@ -7,10 +7,6 @@ This is the sample website project that is used in the course "Optimising your w
 
 You can also check out [my other courses](https://www.skillshare.com/user/riklewis) on Skillshare.
 
-The final version of the sample website is published at the following link...
-
-[https://optimisation-course.netlify.com](https://optimisation-course.netlify.com)
-
 Videos
 ======
 
@@ -37,3 +33,9 @@ There is a branch for each start point during the course, which corresponds to t
 19. Optimising images - branch [19start](https://github.com/riklewis/optimisation-course/tree/19start)
 20. Minifying HTML - branch [20start](https://github.com/riklewis/optimisation-course/tree/20start)
 21. Course Summary
+
+The final version of the sample website is published at the following link...
+
+[https://optimisation-course.netlify.com](https://optimisation-course.netlify.com)
+
+Thank you for watching!
