@@ -1,6 +1,6 @@
 {
   "name": "optimisation-course",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Sample project for Optimising your website course",
   "main": "index.js",
   "scripts": {
@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/riklewis/optimisation-course#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-imagemin": "^4.0.0",
-    "gulp-newer": "^1.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
     "gulp-optimize-js": "^1.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglify": "^3.0.0",
-    "pump": "^2.0.0"
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0"
   }
 }
